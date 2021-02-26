@@ -66,8 +66,8 @@
 (define-key evil-insert-state-map (kbd "C-x C-s") nil)
 (define-key evil-insert-state-map (kbd "C-x C-f") nil)
 (define-key evil-insert-state-map (kbd "C-@") nil)
-(define-key evil-insert-state-map (kbd "C-d") nil)
 (define-key evil-insert-state-map (kbd "C-k") nil)
+(define-key evil-insert-state-map (kbd "C-w") nil)
 (define-key evil-motion-state-map (kbd "C-e") nil)
 
 ;; 自定义启动窗口的大小
