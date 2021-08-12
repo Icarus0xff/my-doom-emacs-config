@@ -69,6 +69,7 @@
 (define-key evil-insert-state-map (kbd "C-k") nil)
 (define-key evil-insert-state-map (kbd "C-w") nil)
 (define-key evil-motion-state-map (kbd "C-e") nil)
+(define-key evil-motion-state-map (kbd "C-v") nil)
 
 ;; 自定义启动窗口的大小
 (pushnew! initial-frame-alist '(width . 96) '(height . 48))
