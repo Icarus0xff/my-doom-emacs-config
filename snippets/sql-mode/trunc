@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: trunc
+# key: trunc
+# --
+trunc($0,'$1month')

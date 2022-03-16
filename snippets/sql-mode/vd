@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vday
+# key: vd
+# --
+to_date(\${$0v_day},'yyyyMMdd')
