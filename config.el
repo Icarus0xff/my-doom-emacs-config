@@ -79,3 +79,4 @@
 (define-key evil-motion-state-map (kbd "C-n") nil)
 ;; 自定义启动窗口的大小
 (pushnew! initial-frame-alist '(width . 96) '(height . 48))
+(setq confirm-kill-emacs nil)
